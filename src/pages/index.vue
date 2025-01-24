@@ -1,12 +1,13 @@
 <script setup lang="ts"></script>
 
 <template>
-  <AppLogos />
-  <InputEntry />
+	<view>首页</view>
 </template>
 
 <style></style>
 
 <route type="home" lang="json">
-{}
+{
+  "layout": "home"
+}
 </route>

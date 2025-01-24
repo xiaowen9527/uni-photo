@@ -8,8 +8,15 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AppFooter: typeof import('./components/AppFooter.vue')['default']
+    AppHeader: typeof import('./components/AppHeader.vue')['default']
     AppLogos: typeof import('./components/AppLogos.vue')['default']
+    Header: typeof import('./components/Header.vue')['default']
     HiCounter: typeof import('./components/HiCounter.vue')['default']
     InputEntry: typeof import('./components/InputEntry.vue')['default']
+    Nav: typeof import('./components/Nav.vue')['default']
+    NavigationBar: typeof import('./components/NavigationBar.vue')['default']
+    WdBadge: typeof import('wot-design-uni/components/wd-badge/wd-badge.vue')['default']
+    WdTab: typeof import('wot-design-uni/components/wd-tab/wd-tab.vue')['default']
+    WdTabs: typeof import('wot-design-uni/components/wd-tabs/wd-tabs.vue')['default']
   }
 }

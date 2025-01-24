@@ -2,11 +2,7 @@
   "pages": [
     {
       "path": "pages/index",
-      "type": "home"
-    },
-    {
-      "path": "pages/hi",
-      "type": "page",
+      "type": "home",
       "layout": "home"
     }
   ],

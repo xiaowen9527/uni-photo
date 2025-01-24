@@ -61,7 +61,8 @@
     "@dcloudio/uni-quickapp-webview": "3.0.0-4040520250104002",
     "@vueuse/core": "^12.4.0",
     "vue": "~3.4.38",
-    "vue-i18n": "^9.14.2"
+    "vue-i18n": "^9.14.2",
+    "wot-design-uni": "^1.6.1"
   },
   "devDependencies": {
     "@dcloudio/types": "^3.4.14",
@@ -88,6 +89,7 @@
     "eslint": "^9.18.0",
     "lint-staged": "^15.3.0",
     "miniprogram-api-typings": "^4.0.4",
+    "sass-embedded": "^1.83.4",
     "simple-git-hooks": "^2.11.1",
     "typescript": "~5.7.3",
     "unocss": "^65.4.0",

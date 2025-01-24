@@ -1,9 +1,9 @@
 <template>
-  <view class="px-10 py-20 text-center">
-    <slot />
-    <app-footer />
-    <view class="mx-auto mt-5 text-center text-sm opacity-25">
-      [Home Layout]
+    <view class="w-screen h-screen flex flex-col ">
+        <app-header />
+        <view class="flex-1">
+            <slot />
+        </view>
+        <app-footer />
     </view>
-  </view>
 </template>

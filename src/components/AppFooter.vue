@@ -1,25 +1,20 @@
-<script lang="ts" setup>
-function handleClickGithub() {
-  if (window?.open) {
-    window.open('https://github.com/uni-helper/vitesse-uni-app')
-  }
-  else {
-    uni.showToast({
-      icon: 'none',
-      title: '请使用浏览器打开',
-    })
-  }
-}
+<!-- description: app-foter -->
+<!-- fileName: AppFooter.vue -->
+<!-- author: iwen(1044803551@qq.com) -->
+
+<script setup>
+
 </script>
 
 <template>
-  <view text="xl gray4" m-5 flex items-center justify-center gap-3>
-    <navigator url="/pages/index" open-type="redirect">
-      <view i-carbon-campsite />
-    </navigator>
-
-    <view cursor-pointer @click="handleClickGithub">
-      <view i-carbon:logo-github />
-    </view>
-  </view>
+	<view class="app-footer">
+		app-footer
+	</view>
 </template>
+
+<style lang='scss' scoped>
+	.app-footer{
+		height: 50px;
+		width: 100vw;
+	}
+</style>

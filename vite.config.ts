@@ -6,6 +6,7 @@ import UniHelperPages from '@uni-helper/vite-plugin-uni-pages'
 import AutoImport from 'unplugin-auto-import/vite'
 import { defineConfig } from 'vite'
 import UniPolyfill from 'vite-plugin-uni-polyfill'
+import { WotResolver } from '@uni-helper/vite-plugin-uni-components/resolvers'
 
 // https://vitejs.dev/config/
 export default async () => {
@@ -23,6 +24,7 @@ export default async () => {
       UniHelperLayouts(),
       // https://github.com/uni-helper/vite-plugin-uni-components
       UniHelperComponents({
+		resolvers: [WotResolver()],
         dts: 'src/components.d.ts',
         directoryAsNamespace: true,
       }),
