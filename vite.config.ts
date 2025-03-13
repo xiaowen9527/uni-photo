@@ -39,5 +39,8 @@ export default async () => {
       // see unocss.config.ts for config
       UnoCSS(),
     ],
+    server: {
+      allowedHosts: ['an5ie3oj-rprj3omk-y63epbwrj6t1.vcc4p.mcprev.cn'],
+    },
   })
 }
